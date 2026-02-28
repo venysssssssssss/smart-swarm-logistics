@@ -33,4 +33,5 @@ class WarehouseVisualizer:
             ))
 
         plt.title("Warehouse Environment")
+        plt.savefig("warehouse_visualization.png")  
         plt.show()
