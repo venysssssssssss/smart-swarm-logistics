@@ -35,5 +35,6 @@ class WarehouseVisualizer:
             ))
 
         plt.title("Warehouse Environment")
-        plt.savefig("warehouse_visualization.png")  
-        plt.show()
+        plt.savefig("warehouse_visualization.png")  # Salva a figura
+        plt.close()  # Fecha a figura para liberar memória
+        print("Visualização salva em warehouse_visualization.png")
